@@ -1,29 +1,39 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+:root {
+    --fonte: 'Montserrat', sans-serif;
+}
 * {
     margin: 0px;
     padding: 0px;
 }
 
 html, body {
-    min-width: 100vh;
+    font-family: 'Montserrat', sans-serif;    
     background-color: darkgray;
+
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-}
-
-header h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
-}
-
-header p {
-    padding-bottom: 50px;
-}
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: auto;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
 
 a {
     color: white;
@@ -40,6 +50,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 40px;
 }
 
 .normal {
@@ -54,6 +65,7 @@ section {
 .imagem p {
     width: 400px;
     background-color: rgba(0, 0, 0, 0.397);
+    display: inline-block;
 }
 
 footer {
