@@ -27,7 +27,7 @@ Grandes Telas: acima de 1200px
     main h1 {
         color: black;
         text-shadow: none;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   ;
     }
 }
 

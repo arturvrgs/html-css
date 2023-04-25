@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae repellat voluptatibus facilis, impedit tenetur placeat quasi. Eaque omnis impedit numquam aut illo soluta excepturi, porro blanditiis voluptate magnam facere perspiciatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis iusto cumque nostrum hic ad explicabo ex odio sunt nesciunt labore doloribus, esse est itaque dicta, quia optio perferendis asperiores provident.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque rerum hic consequuntur, quae doloremque maxime aliquam, exercitationem quam necessitatibus voluptatem repellendus? Modi ipsa est unde dolore et voluptate temporibus quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex molestiae illo error, soluta expedita, quisquam adipisci magni saepe similique nostrum ad reiciendis consequuntur quaerat libero, porro repellendus. Nostrum, ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nobis, ea sequi perferendis voluptatibus perspiciatis sed at beatae possimus tempore repellendus quos placeat eaque temporibus necessitatibus, eveniet ratione libero eos!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque rerum hic consequuntur, quae doloremque maxime aliquam, exercitationem quam necessitatibus voluptatem repellendus? Modi ipsa est unde dolore et voluptate temporibus quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex molestiae illo error, soluta expedita, quisquam adipisci magni saepe similique nostrum ad reiciendis consequuntur quaerat libero, porro repellendus. Nostrum, ad?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }          
+        }
+    </script>
+</body>
+</html>
